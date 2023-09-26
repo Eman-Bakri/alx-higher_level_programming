@@ -2,6 +2,7 @@
 import sys
 
 def safe_function(fct, *args):
+    """Excute safely"""
     try:
         value = fct(*args)
         return value
